@@ -18,6 +18,13 @@ Microsoft XBox Controller (the ones with Bluetooth LE) [^1] and
 my own [ESP32 based arcade controller](https://github.com/Peluko/esp32-arcade). It should be easy
 to add support for other gamepads, just look at the use of ```pad_list[]``` on [main.cpp](src/main.cpp).
 
+Here are some videos of hte prototype working on a MSX:
+
+[![Watch the video](https://img.youtube.com/vi/__kkLNJIY_A/hqdefault.jpg)](https://youtu.be/__kkLNJIY_A)
+
+[![Watch the video](https://img.youtube.com/vi/8AnUPCExSBk/hqdefault.jpg)](https://youtu.be/8AnUPCExSBk)
+
+
 [^1]: I still don't know why, but Xbox gamepad sometimes doesn't link. Sometimes you have
 to repeat the process, restarting the gamepad and resetting the ESP32.
 
