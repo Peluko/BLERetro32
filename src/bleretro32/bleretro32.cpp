@@ -55,6 +55,7 @@ void BLERetro32_Setup(pad_definition_t *pad_list, size_t count)
     scanner->setInterval(1000);
     scanner->setWindow(900);
 
+    BLERETRO_LOGF("Setting up GPIO\n");
     GPIOSetup();
 }
 

@@ -3,14 +3,12 @@
 #include "./joystick_gpio.h"
 #include "./log_macros.h"
 
-#define PIN_UP 16
-#define PIN_DOWN 17
-#define PIN_LEFT 5
-#define PIN_RIGHT 18
-#define PIN_TRG1 19
-#define PIN_TRG2 21
-
-#define PIN_STATUS_LED 2 // 2 is board led
+#define PIN_UP 1
+#define PIN_DOWN 2
+#define PIN_LEFT 3
+#define PIN_RIGHT 4
+#define PIN_TRG1 5
+#define PIN_TRG2 6
 
 #define STATUS_LED_FAST_TIME 300
 #define STATUS_LED_SLOW_TIME 1500

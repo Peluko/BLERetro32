@@ -10,7 +10,7 @@ pad_definition_t pad_list[] = {
     {"Xbox Wireless Controller", xbox_to_retro},
     {"ESP32 Arcade", esp32_arcade_to_retro}};
 
-#define PIN_STATUS_LED 2 // 2 is board led
+#define PIN_STATUS_LED 7 // 2 is board led
 
 #define STATUS_LED_FAST_TIME 200
 #define STATUS_LED_SLOW_TIME 1200
